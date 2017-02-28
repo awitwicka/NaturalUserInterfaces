@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\framework">
+      <UniqueIdentifier>{4439c5e7-7ff9-4709-8721-9fbc0180a553}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\effects">
+      <UniqueIdentifier>{71e5ed3b-94db-4aa2-80a2-b509b1b13850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\framework">
+      <UniqueIdentifier>{6ea117c6-7f11-4931-b9f7-084c853cf495}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\effects">
+      <UniqueIdentifier>{d6971b98-4870-4a29-a088-fe5d1c993820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\shaders">
+      <UniqueIdentifier>{5478e4d6-f356-4a75-92bd-54a6c2f16f77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\model">
+      <UniqueIdentifier>{1a09caa7-22ee-4e72-b0bc-5da0f20f2040}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="in_scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_camera.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_collision.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_constantBuffer.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_dxApplication.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_dxDevice.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_dxstructures.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_exceptions.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_material.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_mesh.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_sceneGraph.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_sceneNode.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_window.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_windowApplication.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_xfileLoader.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_xfileToken.cpp">
+      <Filter>Source Files\framework</Filter>
+    </ClCompile>
+    <ClCompile Include="in_texturedEffect.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_effect.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+    <ClCompile Include="mini_effectLoader.cpp">
+      <Filter>Source Files\effects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="in_scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_camera.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_collision.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_constantBuffer.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_dxApplication.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_dxDevice.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_dxptr.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_dxstructures.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_exceptions.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_material.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_mesh.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_sceneGraph.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_sceneNode.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_window.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_windowApplication.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_xfileLoader.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_xfileToken.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+    <ClInclude Include="in_texturedEffect.h">
+      <Filter>Header Files\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="WICTextureLoader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_effect.h">
+      <Filter>Header Files\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_effectLoader.h">
+      <Filter>Header Files\effects</Filter>
+    </ClInclude>
+    <ClInclude Include="mini_fpsCounter.h">
+      <Filter>Header Files\framework</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="resources\shaders\texturedPS.hlsl">
+      <Filter>Resource Files\shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="resources\shaders\texturedVS.hlsl">
+      <Filter>Resource Files\shaders</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
